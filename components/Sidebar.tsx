@@ -48,7 +48,7 @@ const Sidebar = () => {
               <SidebarButton Icon={UserIcon} title="profile" />
             </>
           ) : (
-            <SidebarButton Icon={LoginIcon} title="login" onClick={() => signIn} />
+            <SidebarButton Icon={LoginIcon} title="login" onClick={() => signIn()} />
           )}
         </div>
         {/* User Information */}
